@@ -3,7 +3,7 @@
 Recently, Virtual Reality (VR) becomes increasingly more popular.
 It enables a wide array of novel applications in many domains, such as video streaming, computer games, occupational training, healthcare, manufacturing, etc.
 The market research also reports that foresee explosive growth of the VR market in the upcoming years~\cite{XR_market}.
-More and more companies devote their effort to the VR industry such as Meta~\cite{Meta}.
+More and more companies devote their effort to the VR industry such as Meta~\cite{Meta} or Google~\cite{google_AR_VR, MJRD+20}.
 
 One way to classify the VR applications is through the different {\em interaction techniques}, including {\em 3DoF} and {\em 6DoF} interactions.
 Because of the high popularity of 360{\degree} video streaming services, most users are familiar with the {\em 3DoF} (Degree-of-Freedom) interactions, in which a user's viewport is determined by his/her head/HMD {\em orientation}.
@@ -30,9 +30,9 @@ The Test Model for Immersive Video (TMIV)~\cite{tmiv_doc,tmiv_gitlab}, which is 
 
 Besides, reducing bandwidth and maintaining high view quality is a bottleneck of 6DoF real-time streaming.
 Because of the limitation of bandwidth, performing the best quality by adaptive quality model for 6DoF immersive video is quite a challenging work.
-There are many existing rate control algorithms for video compression~\cite{PZAB16}\cite{WYTC12}\cite{HM01}.
+There are many existing rate control algorithms for video compression~\cite{PZAB16}\cite{WYTC12}\cite{ZM01}.
 Based on the existed rate control algorithms, it is possible to optimize those models to predict the 6DoF video performance.
-Although, there are still many effects that could impact the 6DoF video quality, e.g., tile sizes~\cite{JLLR20}, camera placements, complexity of scenes~\cite{BWJ21}, number of groups, synthesizer, and a quantization parameter.
+Although, there are still many effects that could impact the 6DoF video quality, e.g., tile sizes~\cite{JLRL+20}, camera placements, complexity of scenes~\cite{SCB21}, number of groups, synthesizer, and a quantization parameter.
 In this paper, we conduct a rate-distortion model (RD-model) to predict the performance of 6DoF immersive video in common situations as we show in Fig.~\ref{fig:RD_model_concept}.
 The model will design in an empirical way and aim at some vital TMIV parameters.
 The main goal of this model is to generate relevance between TMIV parameters and quality metrics, e.g., PSRN, SSIM, and VMAF.
