@@ -1,0 +1,12 @@
+frame,synthesizer,camera_position,scene,pose_traces,QP,numGroup,psnr,ssim,vmaf,x,y,z,yaw,pitch,roll
+0,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,34.14439,0.988593,78.847247,0.0,-0.0,-0.0,-90.0,-0.0,0.0
+1,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,35.204611,0.990641,100.0,0.0,-0.0,-0.1,-90.0,-0.0,0.0
+2,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,21.227439,0.947115,79.938028,0.0,-0.0,-0.2,-90.0,-0.0,0.0
+3,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,16.059097,0.896582,71.985649,0.0,-0.0,-0.3,-90.0,-0.0,0.0
+4,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,14.048344,0.851585,69.089903,0.0,-0.0,-0.4000000000000001,-90.0,-0.0,0.0
+5,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,12.528262,0.805428,64.62539,0.0,-0.0,-0.5000000000000001,-90.0,-0.0,0.0
+6,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,36.178167,0.992526,100.0,0.0,-0.0,0.1,-90.0,-0.0,0.0
+7,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,32.779059,0.984358,96.667523,0.0,-0.0,0.2,-90.0,-0.0,0.0
+8,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,30.574921,0.976198,88.283549,0.0,-0.0,0.3,-90.0,-0.0,0.0
+9,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,29.197852,0.968897,83.002126,0.0,-0.0,0.4000000000000001,-90.0,-0.0,0.0
+10,AdditiveSynthesizer,18x2,RealisticRendering,pose5,0,1,28.301148,0.962931,79.267963,0.0,-0.0,0.5000000000000001,-90.0,-0.0,0.0

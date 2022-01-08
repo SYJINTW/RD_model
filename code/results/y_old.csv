@@ -1,0 +1,9 @@
+frame,synthesizer,camera_position,scene,pose_traces,QP,numGroup,psnr,ssim,vmaf,x,y,z,yaw,pitch,roll
+0,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,34.147443,0.988668,79.003478,0.0,-0.0,-0.0,-90.0,-0.0,0.0
+1,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.78997,0.989304,84.668836,0.0,-0.05,-0.0,-90.0,-0.0,0.0
+2,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.910388,0.988615,85.558256,0.0,-0.1,-0.0,-90.0,-0.0,0.0
+3,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.805001,0.989304,84.45264,0.0,-0.15,-0.0,-90.0,-0.0,0.0
+4,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.660925,0.987448,83.98153,0.0,-0.2,-0.0,-90.0,-0.0,0.0
+5,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.549873,0.987554,81.658727,0.0,-0.25,-0.0,-90.0,-0.0,0.0
+6,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.398596,0.987169,83.623178,0.0,-0.3,-0.0,-90.0,-0.0,0.0
+7,AdditiveSynthesizer,18x2,RealisticRendering,pose3,0,1,33.473292,0.987119,84.23542,0.0,-0.35,-0.0,-90.0,-0.0,0.0
