@@ -1,0 +1,13 @@
+\section{RD-Modeling} \label{sec:modeling}
+
+The target of our model is to predict the objective video quality which we choose VMAF as our main quality metric.
+VMAF is a quality metric developed by Netflix.
+It predicted the video quality by existing image metrics and some other features, such as Visual Information Fidelity (VIF), Detail Loss Metric (DLM), and Mean Co-Located Pixel Difference (MCPD).
+
+We vary the following inputs of the model in our experiments:
+\begin{itemize}
+\item {\bf QP} trades off the bitrate and RGBD video quality.
+MPEG group suggests using a smaller QP for depth video (80\% of the corresponding RGB videos) because depth imposes significant impacts on synthesized quality~\cite{jung2020common}.
+We set (RGB video) QP $\in$ \{20, 36, 44, 48, 50\}, targeting 5 to 50 Mbps total bitrates.
+\item {\bf Target view trajectory} includes: (i) yaw, roll, and pitch, which specify the user {\em orientation} and (ii) surge, heave, and sway, which specify the user {\em position}.
+\end{itemize}
