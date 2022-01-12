@@ -1,5 +1,12 @@
 \section{Introduction} \label{sec:intro}
 
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.46\textwidth]{figs/vr_phase.eps}
+    \caption{Difference between 3DoF and 6DoF interactions.}
+    \label{fig:vr_phase}
+\end{figure}
+
 Recently, Virtual Reality (VR) becomes increasingly more popular.
 It enables a wide array of novel applications in many domains, such as video streaming, computer games, occupational training, healthcare, manufacturing, etc.
 The market research also reports that foresee explosive growth of the VR market in the upcoming years~\cite{XR_market}.
@@ -11,15 +18,7 @@ In the 3DoF VR application, the user's position in his/her coordinate such as st
 Therefore, the user will {\em not} feel he/she is moving in the virtual world, leading to an inferior {\em immersive} user experience.
 In {\em 6DoF} interactions, the application will render the viewports depending on the user position and orientation. 
 Different from the 3DoF interaction, the 6DoF interaction allows users to walk around the virtual world which optimizes the immersive user experience.
-% need a VR figure
 Fig.~\ref{fig:vr_phase} illustrates the difference between 3DoF and 6DoF interactions.
-
-\begin{figure}[tbh]
-    \centering
-    \includegraphics[width=0.46\textwidth]{figs/vr_phase}
-    \caption{Difference between 3DoF and 6DoF interactions.}
-    \label{fig:vr_phase}
-\end{figure}
 
 Supporting 6DoF Extended Reality (XR) using 360{\degree} videos is not an easy task, because, for every single position, a new 360{\degree} video needs to be captured.
 Even if we deploy dense 360{\degree} cameras, users may still miss smooth transitions at the positions between any two adjacent cameras.

@@ -1,5 +1,42 @@
 \section{Related Work} \label{sec:related}
 
+{\bf Objective quality assessment} of live immersive video streaming has been
+conducted to understand how different settings affect the target view quality.
+For example, Cai et al.~\cite{CWQP+21} compared the performance resulted by
+using different 2D video codecs to encode depth video in 6DoF streaming. 
+% Bear, no space
+%They found that AVS3 codec achieves better coding efficiency at an expense of higher computational complexity.  
+Sebastian et al.~\cite{SH17} conducted a similar
+study on depth video compression.  In contrast, Szekielda et al.~\cite{SDM21}
+studied the implications of 2D encoding parameters on both RGB and depth
+videos. Software components other than 2D video codecs have also been
+exercised. For example, Fachada et al.~\cite{FBSL18} focused on the impact of
+different synthesizers under linear versus planar camera placement.  Pre- or
+post-processing of the RGB and depth videos for higher coding efficiency was
+also investigated. For example, Jeong et al.~\cite{JLRL+20} proposed to
+downsample the RGB video and upsample the depth video to increase the coding
+efficiency.  Salahieh et al.~\cite{SBB19} compared the performance of MIV
+reference software, called Test Model of Immersive Video (TMIV)~\cite{tmiv_doc}
+in the 3D domain. In particular, they considered different settings, including
+{\em single-} versus {\em multi-pass synthesis} and {\em MIV} versus {\em MIV
+View modes}. 
+% Bear, no space
+%Their performance compassion revealed that multi-pass synthesis leads to significant performance boost in MIV View mode. 
+Last, the impacts of
+different camera (source view) densities on synthesized target view quality
+were evaluated in Ray et al.~\cite{RJL18}. They concluded that higher camera
+densities lead to better perceived quality. Compared to our work, the
+aforementioned studies have two major limitation. First, almost all of them (except Ray et al.~\cite{RJL18})
+employed existing scene/trajectory datasets. 
+% Bear, save space 
+%The only exception is Ray et al.~\cite{RJL18}, in which two scenes created in Blender were used. 
+Second, none of them considered  {\em continuous} 6DoF trajectories of
+source {\em and} target views. The closest setup to continuous 6DoF
+trajectories was the {\em discrete} camera locations/orientations adopted in Fachada
+et al.~\cite{FBSL18} and Ray et al.~\cite{RJL18}. {\em Our AirSim-based data
+collection tools offer the opportunity to generate large and flexible datasets
+with real 6DoF source/target trajectories.}
+
 \subsection{2D videos}
 
 \subsection{360 videos}
